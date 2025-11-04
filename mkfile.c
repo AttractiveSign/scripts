@@ -4,7 +4,6 @@
 #include <fcntl.h>
 #include <unistd.h>
 
-
 int main(void) {
     char filename[31]; //char array for saving filename; 30 characters + string terminator 
 

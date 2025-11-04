@@ -35,5 +35,3 @@ try:
 #Interrupt if user sends interrupt signal
 except KeyboardInterrupt:
     print("\nInterrupted by user")
-
-
