@@ -1,7 +1,7 @@
 #! /bin/bash
-export HYPRLAND_INSTANCE_SIGNATURE=$(ls /run/user/1000/hypr/ | head -n 1)
+export HYPRLAND_INSTANCE_SIGNATURE=$(ls /run/user/1000/hypr/ | tail -n 1)
 export DISPLAY=:0
-export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus"
+export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${UID}/bus"
 DIR="${HOME}/Pictures/wallpapers"
 CACHE_FILE="${HOME}/.cache/last_wallpaper"
 
