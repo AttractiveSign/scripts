@@ -7,3 +7,4 @@ This repository contains a collection of scripts that I use for university proje
 - **rename.sh**: Batch rename files by appending a custom suffix.  
 - **try_host.py**: Periodically pings a host, displaying the host, timestamp, and ping time in milliseconds.  
 - **mkfile.c**: Interactive C program that prompts for a filename and creates an empty file with restricted permissions (`0700`).
+- **hyprpaper_picker.sh**: Cycle randomly through wallpapers in the specified wallpaper folder. For hyprland and hyprpaper only.
