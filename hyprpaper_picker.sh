@@ -25,4 +25,3 @@ done
 echo "${random_file}" > "${CACHE_FILE}"
 
 hyprctl hyprpaper reload ,"${DIR}/${random_file}" 
-notify-send "Wallpaper changed"
